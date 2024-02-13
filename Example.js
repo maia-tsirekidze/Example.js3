@@ -126,19 +126,30 @@ switch (prompt('ჩაწერე შენი შეფასება:')){
                                     console.log("დაბალი");
                                     break;
 }
-/*
+
 //დაწერეთ პროგრამა, რომელიც ინფუთის სახით მიიღებს თვის რიცხვს (1 იანვრისთვის, 2 თებერვლისთვის და ა.შ.) 
 //და ამობეჭდავს დღეების რაოდენობას ამ თვეში switch/case-ის გამოყენებით.
 switch (prompt("რიცხვი")) {
     case "1":
-        console.log("31")
-        break;
-        case "2":
-            console.log("29");
-            break;
-            default:
-                case "3";
-                console.log(30);
-                break;
+        
+    case "3":
+    case "5":
+    case"7":
+    case"8":
+    case "10":
+    case "12":    
+    console.log("31");
+    break;
+    case "4":
+    case "6":
+    case "9": 
+    case "11":   
+    console.log("30");
+    break;
+    case "2":
+    console.log("28");
+    break;
+    default:
+        console.log("wrong input");
 
-  }*/
+  }
